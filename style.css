@@ -1,0 +1,92 @@
+body{
+    background-image: url("Imagenes/fondo.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 100px;
+    padding: 20px; 
+}
+.header{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+
+}
+.logo{
+    width: 120px;
+    height: 120px;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.header img{
+    border-radius: 10px;
+}
+nav{
+    background-color: #333;
+    padding: 15px;
+    border-radius: 10px;
+} 
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+nav a:hover{
+    background-color: #e67e22;
+    color: white;
+}
+h1{
+    text-align: center;
+    color: brown;
+    margin: 0 auto 20px auto;
+}
+#entradas{
+    
+    background-color: #e8bc90;
+    border: 5px dashed #E86A33;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 10px 50px;
+}
+.plato{
+    background-color: bisque;
+    border: 3px solid #E86A33;
+    margin: 15px 0;
+    padding: 10px;
+    width: 80%;
+}
+#platos_principales{
+    
+    background-color: #95e890;
+    border: 5px dashed #E86A33;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 10px 50px;
+}
+#postres{
+    
+    background-color: #e8bc90;
+    border: 5px dashed #E86A33;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 10px 50px;
+}
